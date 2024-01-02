@@ -1,3 +1,4 @@
+import 'package:eventmingle/views/login_screen.dart';
 import 'package:eventmingle/views/onbaording_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -13,12 +14,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Event Mingle',
+      title: 'SnapFlow',
       theme: ThemeData( 
         textTheme: GoogleFonts.latoTextTheme(
           Theme.of(context).textTheme)
       ),
-      home: OnboardingScreen(),
+      initialRoute: '/',
+      routes:{
+        '/': (context)=> OnboardingScreen(),
+        '/loginPage': (context)=> LoginPage(),
+      }
     );
   }
 }
