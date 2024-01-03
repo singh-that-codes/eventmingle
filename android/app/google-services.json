@@ -12,7 +12,20 @@
           "package_name": "com.example.eventmingle"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "527151261402-5d9a199t06rqn69aos67ss3iudbm5l11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventmingle",
+            "certificate_hash": "5a6fcf8400c2ad9f923e15aa287054b402d5cbb8"
+          }
+        },
+        {
+          "client_id": "527151261402-ej25kn6o9q56kop2p1jq448a9g06fe3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDGupza5uml3eqTnYj59TeJ8sUOP06vHi4"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527151261402-ej25kn6o9q56kop2p1jq448a9g06fe3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "527151261402-t31o8tqru8fdrf6lkirjoubpgqkel9hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eventmingle"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +56,20 @@
           "package_name": "com.singhthatcodes.snapflow"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "527151261402-o3b21e4hmtfnkhj7f40p293qunb9h82m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.singhthatcodes.snapflow",
+            "certificate_hash": "5a6fcf8400c2ad9f923e15aa287054b402d5cbb8"
+          }
+        },
+        {
+          "client_id": "527151261402-ej25kn6o9q56kop2p1jq448a9g06fe3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDGupza5uml3eqTnYj59TeJ8sUOP06vHi4"
@@ -39,7 +77,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527151261402-ej25kn6o9q56kop2p1jq448a9g06fe3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "527151261402-t31o8tqru8fdrf6lkirjoubpgqkel9hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eventmingle"
+              }
+            }
+          ]
         }
       }
     }
