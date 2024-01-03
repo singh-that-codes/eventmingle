@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/Users/japjeetsingh/development/bidev/eventmingle/windows"
+    "cmake.sourceDirectory": "/Users/japjeetsingh/development/bidev/eventmingle/windows",
+    "cSpell.words": [
+        "Getx"
+    ]
 }

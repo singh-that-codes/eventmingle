@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "527151261402",
+    "project_id": "snapflow-app",
+    "storage_bucket": "snapflow-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527151261402:android:1c811c74aa390d03fee7e3",
+        "android_client_info": {
+          "package_name": "com.example.eventmingle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGupza5uml3eqTnYj59TeJ8sUOP06vHi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527151261402:android:d089b5d0013a2514fee7e3",
+        "android_client_info": {
+          "package_name": "com.singhthatcodes.snapflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGupza5uml3eqTnYj59TeJ8sUOP06vHi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

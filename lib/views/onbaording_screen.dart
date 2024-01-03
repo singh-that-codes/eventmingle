@@ -1,4 +1,6 @@
+import 'package:eventmingle/views/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -99,7 +101,7 @@ class OnboardingScreen extends StatelessWidget {
                             padding: const EdgeInsets.only(left: 15, right: 15),
                             child: MaterialButton(
                               onPressed: (){
-                                Navigator.pushNamed((context), '/loginPage');
+                               Get.to(()=>LoginPage());
                               },
                               minWidth: double.infinity,
                               color: Colors.white,
