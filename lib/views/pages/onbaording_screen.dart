@@ -1,4 +1,4 @@
-import 'package:eventmingle/views/login_screen.dart';
+import 'package:eventmingle/views/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';

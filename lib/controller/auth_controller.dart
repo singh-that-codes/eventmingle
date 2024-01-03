@@ -1,5 +1,5 @@
 import 'package:eventmingle/views/auth/create_profile.dart';
-import 'package:eventmingle/views/home_screen.dart';
+import 'package:eventmingle/views/pages/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';

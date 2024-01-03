@@ -1,6 +1,7 @@
 // signup_page.dart
 import 'package:eventmingle/controller/auth_controller.dart';
-import 'package:eventmingle/views/login_screen.dart';
+import 'package:eventmingle/views/auth/create_profile.dart';
+import 'package:eventmingle/views/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -74,6 +75,8 @@ class _SignUpPageState extends State<SignUpPage> {
                     email: emailController.text,
                     password: passwordController.text,
                   );
+                  Get.to(()=>ProfileScreen());
+
                 } else {
                   showDialog(
                     context: context,
@@ -100,7 +103,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 ),
               ),
               child: Text(
-                "Sign Up",
+                "Next",
                 textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(
                   fontSize: 18,
