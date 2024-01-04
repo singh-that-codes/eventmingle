@@ -1,4 +1,5 @@
 import 'package:eventmingle/controller/auth_controller.dart';
+import 'package:eventmingle/views/pages/account_page.dart';
 import 'package:eventmingle/views/pages/settings_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.latoTextTheme(
           Theme.of(context).textTheme)
       ),
-      home: SettingsPage(),
+      home: AccountPage(),
     );
   }
 }
