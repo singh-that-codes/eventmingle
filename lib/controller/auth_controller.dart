@@ -41,7 +41,6 @@ class AuthController extends GetxController {
           await GoogleSignIn().signIn();
 
       if (googleSignInAccount == null) {
-        // User canceled Google Sign-In
         return;
       }
 

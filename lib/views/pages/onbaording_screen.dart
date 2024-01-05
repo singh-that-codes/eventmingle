@@ -20,7 +20,7 @@ class OnboardingScreen extends StatelessWidget {
                 height: 50,
               ),
               Text(
-                "Welcome to EMS!",
+                "Welcome to SnapFlow!",
                 style: GoogleFonts.poppins(
                   color: Colors.black,
                   fontSize: 27,
@@ -31,7 +31,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 10,
                 ),
                 Text(
-                  "Event Management System",
+                  "Streamline the flow of your events",
                   style: GoogleFonts.poppins(
                     fontSize: 17,
                     color: Colors.black
@@ -87,7 +87,7 @@ class OnboardingScreen extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(left: 15, right: 15),
                             child: Text(
-                                "EventMingle is an app where users can leverage their social networl to create, discover, share, and monetise events and services",
+                                "SnapFlow is an app where users can leverage their social networl to create, discover, share, and monetise events and services",
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.poppins(
                                     fontSize: 16,
