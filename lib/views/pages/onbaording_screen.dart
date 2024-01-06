@@ -1,4 +1,4 @@
-import 'package:eventmingle/views/auth/login_screen.dart';
+import 'package:eventmingle/views/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -101,7 +101,7 @@ class OnboardingScreen extends StatelessWidget {
                             padding: const EdgeInsets.only(left: 15, right: 15),
                             child: MaterialButton(
                               onPressed: (){
-                               Get.to(()=>LoginPage());
+                               Get.to(()=>SettingsPage());
                               },
                               minWidth: double.infinity,
                               color: Colors.white,
