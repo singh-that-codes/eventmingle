@@ -1,4 +1,5 @@
 import 'package:eventmingle/controller/auth_controller.dart';
+import 'package:eventmingle/views/auth/login_screen.dart';
 import 'package:eventmingle/views/pages/onbaording_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.latoTextTheme(
           Theme.of(context).textTheme)
       ),
-      home: const OnboardingScreen(),
+      home: const LoginPage(),
     );
   }
 }
